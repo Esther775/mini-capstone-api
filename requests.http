@@ -20,3 +20,8 @@ Content-Type: application/json
 {
   "item": "desk"
 }
+
+
+###
+
+DELETE http://localhost:3000/products/5

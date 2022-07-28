@@ -18,4 +18,6 @@ Rails.application.routes.draw do
 
   #update
 
+  delete "/products/:id" => "product#destroy"
+  #remove an item
 end
