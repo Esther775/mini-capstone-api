@@ -12,3 +12,11 @@ Content-Type: application/json
 }
 
 
+###
+
+PATCH http://localhost:3000/products/10
+Content-Type: application/json
+
+{
+  "item": "desk"
+}
